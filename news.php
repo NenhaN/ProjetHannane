@@ -35,10 +35,8 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-
                 <li><a class="dropdown-item" href="#">Home</a></li>
                 <li><a class="dropdown-item" href="news.php">News</a></li>
-
                 <li><a class="dropdown-item" href="#">A propos</a></li>
                 </ul>
             </li>
@@ -93,58 +91,50 @@
 
     </header>
 
-
-    <h1 class="display-4 text-center my-5">Mes vacances a la plage</h1>
-    
-    <div class="card" style="width: 18rem;">
-  <img src="img/télécharger.jpg" class="card-img-top" alt="plage">
-  <div class="card-body">
-    <h5 class="card-title">Bora-Bora</h5>
-    <p class="card-text">Flamenco Beach sur l’île de Culebra</p>
-    
-  </div>
-
     <main>
         <h1 class="display-4 text-center my-5">MonProjetGit</h1>
+    </main>
     
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
     
-
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-
-    </div>
-
-    <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
-</div>
-<div class="form-floating">
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-  <label for="floatingPassword">Password</label>
-  <button type="button" class="btn btn-info">Info</button>
-
-</div>
-
-
-    <div class="container">
-        <p>La plage d’Asnelles est l’une des plus populaires plages du Bessin. Facilement accessible en voiture, sécurisée en été avec un poste de surveillance, accessible à marée haute, animée et bénéficiant d’une belle vue sur Arromanches les Bains, elle attire de nombreuses familles.
-
-A marée haute, la plage est accessible côté Est (niveau du parking, intersection de la rue du Débarquement). Elle est bordée par quelques dunes et offre un environnement préservé, très rare pour une plage urbaine.
-
-A marée basse, la plage se découvre sur plusieurs kilomètres côté ouest, on peut même rejoindre Saint Come de Fresné et Arromanches les Bains à pied par la plage !
-
-Une plage complète où l’on peut également pratiquer du char à voile. Snack à l’entrée de la plage ainsi qu’un restaurant à proximité de la plage.
-
-A noter que la vue sur Arromanches les Bains, les falaises à l’ouest et sur le port artificiel est magnifique.  Une plage avec de nombreux atouts !</p>
-        <p>Pour ceux qui n’aiment pas le « m’as-tu-vu » de St-Tropez mais qui désirent être à proximité de la star du Var, Sainte-Maxime est une bonne alternative. Située en face de St-Trop (des navettes en bateau sont disponibles, c'est un bon plan à notre sens pour éviter les embouteillages qui sont nombreux en été au niveau de Port-Grimaud), les plages de sable sont très agréables (surtout celle en centre-ville en face du casino ou celle de la Nartelle qui sont nos coups de cœur). On trouve également quelques criques du côté de la Pointe des Sardinaux.
-
-Le centre de Ste-Maxime, même s’il est moins typique que celui de Saint-Tropez, possède quelques ruelles commerçantes avec de nombreux restaurants, très animées en pleine saison. Le casino de Sainte-Maxime se situe en front de mer, de quoi passer quelques soirées. Au port, on peut même acheter du poisson frais directement aux pêcheurs.
-
-Si vous recherchez une destination pour profiter des plages, Sainte-Maxime est une bonne solution ! A noter que durant la saison estivale, les plages de Ste Maxime sont moins remplies que les plages de St Tropez.</p>
-
-    </div>
-</main>
 
    <footer class="bg-dark text-center text-white py-3">
        &copy; 2022 - HN - MonProjetGit - Tous droits réservés
