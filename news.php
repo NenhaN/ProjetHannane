@@ -35,10 +35,8 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-
                 <li><a class="dropdown-item" href="#">Home</a></li>
                 <li><a class="dropdown-item" href="news.php">News</a></li>
-
                 <li><a class="dropdown-item" href="#">A propos</a></li>
                 </ul>
             </li>
@@ -95,32 +93,48 @@
 
     <main>
         <h1 class="display-4 text-center my-5">MonProjetGit</h1>
+    </main>
     
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
     
-
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-
-    </div>
-
-    <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
-</div>
-<div class="form-floating">
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-  <label for="floatingPassword">Password</label>
-  <button type="button" class="btn btn-info">Info</button>
-</div>
-
-
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-
-    </div>
-</main>
 
    <footer class="bg-dark text-center text-white py-3">
        &copy; 2022 - HN - MonProjetGit - Tous droits réservés
