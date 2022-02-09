@@ -97,6 +97,13 @@
         <h1 class="display-4 text-center my-5">MonProjetGit</h1>
     
     
+
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
+
+    </div>
+
     <div class="form-floating mb-3">
   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
   <label for="floatingInput">Email address</label>
@@ -104,7 +111,9 @@
 <div class="form-floating">
   <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
   <label for="floatingPassword">Password</label>
+  <button type="button" class="btn btn-info">Info</button>
 </div>
+
 
     <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
