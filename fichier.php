@@ -35,10 +35,8 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-
                 <li><a class="dropdown-item" href="#">Home</a></li>
                 <li><a class="dropdown-item" href="news.php">News</a></li>
-
                 <li><a class="dropdown-item" href="#">A propos</a></li>
                 </ul>
             </li>
@@ -95,23 +93,60 @@
 
     <main>
         <h1 class="display-4 text-center my-5">MonProjetGit</h1>
+    </main>
     
-    
-    <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
+    <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
 </div>
-<div class="form-floating">
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-  <label for="floatingPassword">Password</label>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
 </div>
 
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit tempora fuga nobis ullam explicabo excepturi quidem accusamus perspiciatis nisi illo dolor quisquam modi commodi maiores quod, adipisci accusantium eveniet facilis nesciunt ipsa nam inventore dolorum cumque. Impedit repellendus officiis atque harum quia, dolore aliquid, voluptatum vero voluptates magnam dicta id eveniet? Iure, incidunt asperiores quaerat odit eum accusantium voluptatem voluptatum cupiditate nihil aperiam minus amet dicta? Alias tempora rem modi facere a in amet quos ut! Cum itaque exercitationem natus! Laboriosam quod error, distinctio nostrum iste ex id officiis natus facilis doloribus. Aut quidem soluta laudantium assumenda nobis explicabo!</p>
+<div class="card" style="width: 18rem;">
+  <img src="img/image1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 
-    </div>
-</main>
+<div class="card" style="width: 18rem;">
+  <img src="img/image2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="img/image3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    
 
    <footer class="bg-dark text-center text-white py-3">
        &copy; 2022 - HN - MonProjetGit - Tous droits réservés
